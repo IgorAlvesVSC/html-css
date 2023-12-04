@@ -1,0 +1,519 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family: 'f1';
+    src: url(Formula1-Bold_web_0.ttf) format('truetype');
+}
+
+:root{
+    --background: #1C1D24;
+    --race: #BFBEC2;
+    --medium: rgb(230, 230, 13);
+    --soft: rgb(218, 8, 8);
+    --hard: white; 
+    --gradientcolor1: #17181F;
+    --gradientcolor2: #504E55;
+}
+
+body{
+    background-color: rgb(95, 95, 95);
+}
+
+footer{
+    background-color: white;
+    font-family: 'f1';
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer a:hover{
+    text-decoration: overline;
+    background-color: blue;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+p{
+    line-height: 23px;
+}
+
+div{
+    width: 270px;
+    height: 900px;
+    background-color: var(--background);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.493);
+}
+
+.logof1{
+    width: 150px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+#race{
+    font-family: 'f1';
+    color: var(--race);
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img, #race{
+    display: inline-block;
+}
+
+#lap{
+    text-align: center;
+    margin: 1px;
+    color: var(--hard);
+    font-family: 'f1';
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#header{
+    background-image: linear-gradient(#17181F, #504E55);
+    width: 270px;
+    height: 105px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.redbull-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 2px;
+
+}
+
+.redbull-logo{
+    width: 35px;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.redbull-logo, .redbull-tabela{
+    display: inline-block;
+}
+
+
+.tyre-max{
+    color: var(--medium);
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.int-redbull{
+    padding-left: 20px;
+}
+
+.ferrari-logo{
+    width: 17px;
+    padding-left: 14px;
+}
+
+.ferrari-logo, .ferrari-tabela{
+    display: inline-block;
+}
+
+.ferrari-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+}
+
+.tyre-ferrari{
+    color: var(--medium);
+    padding-left: 29px;
+    font-size: 18px;
+}
+
+.int-ferrari{
+    padding-left: 25px;
+}
+
+.lec{
+    padding-left: 11px;
+}
+
+.mercedes-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin: 2px;
+}
+
+.mercedes-logo{
+    width: 20px;
+    padding-left: 9px;
+}
+
+.mercedes-logo, .mercedes-tabela{
+    display: inline-block;
+}
+
+.int-mercedes{
+    padding-left: 20px;
+}
+
+.tyre-mercedes{
+    color: var(--soft);
+    padding-left: 29px;
+    font-size: 18px;
+}
+
+.rus{
+    padding-left: 7px;
+}
+
+.alpine-logo, .alpine-tabela{
+    display: inline-block;
+}
+
+.alpine-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.alpine-logo{
+    width: 28px;
+    padding-left: 4px;
+}
+
+.int-alpine{
+    padding-left: 18px;
+}
+
+.tyre-alpine{
+    color: var(--hard);
+    padding-left: 28px;
+    font-size: 18px;
+}
+
+.gas{
+    padding-left: 3px;
+}
+
+.williams-logo, .williams-tabela{
+    display: inline-block;
+}
+
+.williams-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.williams-logo{
+    width: 24px;
+    padding-left: 8px;
+}
+
+.int-williams{
+    padding-left: 20px;
+}
+
+.tyre-williams{
+    color: var(--soft);
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.alb{
+    padding-left: 5px;
+}
+
+.oco{
+    padding-left: 7px;
+}
+
+.laren-logo, .laren-tabela{
+    display: inline-block;
+}
+
+.laren-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.laren-logo{
+    width: 24px;
+    padding-left: 8px;
+}
+
+.int-laren{
+    padding-left: 24px;
+}
+
+.tyre-laren{
+    color: var(--medium);
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.pia{
+    padding-left: 9px;
+}
+
+.ham-logo{
+    width: 20px;
+    padding-left: 9px;
+    margin-top: 5px;
+}
+
+.int-ham{
+    padding-left: 13px;
+}
+
+.tyre-ham{
+    color: var(--soft);
+    padding-left: 32px;
+    font-size: 18px;
+}
+
+.haas-logo, .haas-tabela{
+    display: inline-block;
+}
+
+.haas-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.haas-logo{
+    width: 22px;
+    padding-left: 1px;
+}
+
+.int-haas{
+    padding-left: 13px;
+}
+
+.tyre-haas{
+    color: var(--medium);
+    padding-left: 28px;
+    font-size: 18px;
+}
+
+.mag{
+    padding-left: 3px;
+}
+
+.romeo-logo, .romeo-tabela{
+    display: inline-block;
+}
+
+.romeo-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.romeo-logo{
+    width: 22px;
+    padding-left: 7px;
+}
+
+.int-romeo{
+    padding-left: 20px;
+}
+
+.tyre-romeo{
+    color: var(--hard);
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.zho{
+    padding-left: 3px;
+}
+
+.tyre-per{
+    color: var(--medium);
+    padding-left: 26px;
+    font-size: 18px;
+}
+
+.int-aston{
+    padding-left: 15px;
+}
+
+.aston-logo, .aston-tabela{
+    display: inline-block;
+}
+
+.aston-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 7px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.aston-logo{
+    width: 40px;
+    padding-left: 3px;
+}
+
+.int-aston{
+    padding-left: 20px;
+}
+
+.tyre-aston{
+    color: var(--hard);
+    padding-left: 28px;
+    font-size: 18px;
+}
+
+.str{
+    padding-left: px;
+}
+
+.int-per{
+    padding-left: 16px;
+}
+
+.int-tauri{
+    padding-left: 15px;
+}
+
+.tauri-logo, .tauri-tabela{
+    display: inline-block;
+}
+
+.tauri-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 7px;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.tauri-logo{
+    width: 30px;
+    padding-left: 5px;
+}
+
+.int-tauri{
+    padding-left: 20px;
+}
+
+.tyre-tauri{
+    color: var(--medium);
+    padding-left: 26px;
+    font-size: 18px;
+}
+
+.ric{
+    padding-left: 5px;
+}
+
+.sai{
+    padding-left: 10px;
+}
+
+.int-sainz{
+    padding-left: 18px;
+}
+
+.tyre-sainz{
+    padding-left: 26px;
+    font-size: 18px;
+    color: var(--medium);
+}
+
+.sainz-tabela{
+    font-family: 'f1';
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.sainz-tabela, .ferrari-logo{
+    display: inline-block;
+}
+
+.int-alo{
+    padding-left: 8px;
+}
+
+.tyre-alo{
+    color: var(--hard);
+    padding-left: 27px;
+    font-size: 18px;
+}
+
+.bot{
+    padding-left: 10px;
+}
+
+.int-bot{
+    padding-left: 10px;
+}
+
+.tyre-bot{
+    color: var(--hard);
+    padding-left: 29px;
+    font-size: 18px;
+}
+
+.hul{
+    padding-left: px;
+}
+
+.hul-logo, .haas-tabela{
+    display: inline-block;
+}
+
+.hul-logo{
+    width: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.tsu{
+    padding-left: 5px;
+}
+
+.tyre-nor{
+    font-size: 18px;
+    color: var(--soft);
+    padding-left: 26px;
+}
+
+.int-nor{
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.377);
+}
+
+.grudado{
+    line-height: 40px;
+}
+
+.nor{
+    color: rgba(255, 255, 255, 0.377);
+}
+
