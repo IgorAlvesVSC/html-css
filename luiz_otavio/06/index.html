@@ -6,45 +6,71 @@
     <title>Document</title>
 
     <style>
-        .section-one, .section-two{
+        *{
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+        }
+        
+        nav{
+            background: red;
         }
 
-        .section-one{
-            background-color: deeppink;
-            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/286px-Altja_j%C3%B5gi_Lahemaal.jpg);
-            background-size: cover;
-            background-position: center center;
+        nav a{
             color: white;
-
-            width: 200px;
-            height: 50px;
-            border-bottom-width: 10px;
-            border-bottom-color: firebrick;
-            border-left-color: green;
-            border-right-color: blue;
-            border-top-color: yellow;
-            border-style: solid;
-            padding: 10px;
-            margin: 20px;
+            text-decoration: none;
+            font-family: sans-serif;
+            padding: 10px 20px;
+            display: block;
+            text-transform: uppercase;
         }
 
-        .section-two{
-            background: cyan;
-            width: 200px;
-            height: 50px;
-            border: 5px solid black;
-            padding: 15px;
-            margin: 20px;
-
+        nav a:hover{
+            background: rgba(0, 0, 0, 0.3);
         }
 
+        nav{
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul{
+            display: flex; 
+            list-style: none;
+            margin-left: 10px;
+        }
     </style>
 </head>
 <body>
-    <section class="section-one">Lorem ite ccorrupti dolor mollitia.</section>
-    <section class="section-two">2</section>
+<aside>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </nav>
+</aside>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol type="1" start="20">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <dl>
+        <dt>Café</dt>
+        <dd>bebida preta quente</dd>
+        <dt>Café</dt>
+        <dd>bebida preta quente</dd>
+        <dt>Café</dt>
+        <dd>bebida preta quente</dd>
+
+    </dl>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate corrupti molestias nisi! Nisi accusamus non a, quaerat praesentium incidunt. Id alias molestias illum eaque enim, voluptatibus dicta architecto cupiditate?</p>
 </body>
 </html>
