@@ -1,43 +1,7 @@
-.heading{
-    transition: all .5s ease-in-out;
+p{
+    font-size: 24px;
 }
 
-.heading:hover{
-    background: red;
-}
-
-a{
-    color: darkorange;
-}
-
-a:link{
-    color: deeppink;
-}
-
-a:visited{
-    color: firebrick;
-}
-
-a:hover{
-    background: darkslateblue;
-    color: white;
-    text-decoration: none;
-}
-
-a:active{
-    background: darkslategrey;
-    color: white;
-    text-decoration: none;
-}
-
-input:checked + p{
-    background-color: red;
-}
-
-.pai .lista li:first-child{
-    background-color: red;
-}
-
-input:required{
-    background-color: green;
+.form-field::placeholder{
+    color: red;
 }
