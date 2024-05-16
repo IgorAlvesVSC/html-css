@@ -1,7 +1,22 @@
-p{
-    font-size: 24px;
+/* 
+ID /Classes atributos e pseudo-classes/ Elementos e pseudo-elementos  
+1                    0                                 0
+0                    1                                 0
+1                    1                                 0
+*/
+
+body#b.bclass p#p.p::selection:hover{
+    background-color: green;
 }
 
-.form-field::placeholder{
-    color: red;
+#p{
+    background: red;
+}
+
+#p.p{
+    background: yellow;
+}
+
+p{
+    background-color: green !important;
 }
