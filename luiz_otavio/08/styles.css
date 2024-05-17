@@ -1,22 +1,9 @@
-/* 
-ID /Classes atributos e pseudo-classes/ Elementos e pseudo-elementos  
-1                    0                                 0
-0                    1                                 0
-1                    1                                 0
-*/
-
-body#b.bclass p#p.p::selection:hover{
-    background-color: green;
-}
-
-#p{
-    background: red;
-}
-
-#p.p{
-    background: yellow;
+#texto{
+    font-family: sans-serif;
+    color: red;
+    font-size: 70px;
 }
 
 p{
-    background-color: green !important;
+    font-size: initial;
 }
